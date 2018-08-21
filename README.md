@@ -10,9 +10,9 @@ This project contains a library for base64 encoding and decoding in many program
  * Python
  * Visual Basic
 
-The library has been made with progsbase, a tool for creating rot-resistant programs that are translatable to many programming languages.
+The library has been made with [progsbase](https://www.progsbase.com), a tool for creating rot-resistant programs that are translatable to many programming languages.
 
-The library can also be browsed in the : [progsbase program database base64 page](https://repo.progsbase.com/repoviewer/no.inductive.idea10.programs/base64/0.1.0).
+The library can also be browsed and tested on the [progsbase repository's base64 page](https://repo.progsbase.com/repoviewer/no.inductive.idea10.programs/base64/0.1.0).
 
 ![progsbase logo](/docs/images/progsbase-logo.png)
 
