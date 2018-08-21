@@ -24,7 +24,7 @@ The library has the same interface in all programming languages.
 
 ### Encode
 
-`Encoded encode(String data)`
+`Encoded encode(double [] data)`
 
 The encode function takes an array of numbers, each holding a byte value, a value from 0 to 255, inclusive.
 
@@ -35,7 +35,7 @@ The output is a structure with three fields:
  * data: If encoding succeeded, the base64 encoded string of the input array.
 
 ### Decode
-`Decoded decode(String data)`
+`Decoded decode(char [] data)`
 
 The decode function takes a base64 string.
 
