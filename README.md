@@ -23,6 +23,9 @@ For more information about progsbase, check out: [progsbase.com](https://www.pro
 The library has the same interface in all programming languages.
 
 ### Encode
+
+`Encoded encode(String data)`
+
 The encode function takes an array of numbers, each holding a byte value, a value from 0 to 255, inclusive.
 
 The output is a structure with three fields:
@@ -32,6 +35,8 @@ The output is a structure with three fields:
  * data: If encoding succeeded, the base64 encoded string of the input array.
 
 ### Decode
+`Decoded decode(String data)`
+
 The decode function takes a base64 string.
 
 The output is a structure with three fields:
@@ -39,3 +44,45 @@ The output is a structure with three fields:
  * success: A boolean which is true iff decoding succeeded.
  * errorMessage: If decoding failed, this contains the human readable reason.
  * data: If decoding succeeded, an array of numbers, each holding a byte value, each between 0 and 255 inclusive.
+
+## Examples
+
+#### Java
+`Encoded encoded = base64.encode(byteData);`
+
+`Decoded decoded = base64.decode(base64CharacterArray);`
+
+#### C
+`Encoded *encoded = encode(byteData, byteDataLength);`
+
+`Decoded *decoded = decode(base64String, base64StringLength);`
+
+#### C++
+`Encoded *encoded = encode(byteData);`
+
+`Decoded *decoded = decode(base64CharacterArray);`
+
+### JavaScript
+`var encoded = encode(byteData)`
+
+`var decoded = decode(base64CharacterArray)`
+
+### C#
+`Encoded encoded = base64.encode(byteData);`
+
+`Decoded decoded = base64.decode(base64CharacterArray);`
+
+### PHP
+`$encoded = encode($byteData)`
+
+`$decoded = decode($base64CharacterArray)`
+
+### Python
+`encoded = encode(byteData)`
+
+`decoded = decode(base64CharacterArray)`
+
+### Visual Basic .NET
+`encoded = encode(byteData)`
+
+`decoded = decode(base64CharacterArray)`
