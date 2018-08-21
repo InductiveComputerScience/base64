@@ -1,0 +1,11 @@
+{
+  "name": "base64",
+  "version": "0.1.0",
+  "organization namespace": "no.inductive.idea10.programs",
+  "scientific namespace": "computerscience.algorithms.base64",
+  "imports": [
+],
+  "development imports": [
+    ["", "no.inductive.idea10.programs", "arrays", "0.1.0"]
+  ]
+}
